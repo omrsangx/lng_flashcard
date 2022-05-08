@@ -1,3 +1,4 @@
+# Author: Omar
 # Importing needed libraries 
 import re
 import json
@@ -100,7 +101,7 @@ app = Flask(__name__)
 @app.route('/')
 def my_view():
     html_file = 'index.html'
-    # selecting 10 words random words and assigning it to the data variable
+    # selecting 10 random words based on the number for frequency and assigning it to the data variable
     data = db_object.random_lookup_frequency(freq)
     # rendering the html and passing the data as json format to the front end
     return render_template(html_file, data=json.dumps(data))
