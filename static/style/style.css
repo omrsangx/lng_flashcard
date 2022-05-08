@@ -1,0 +1,141 @@
+{box-sizing: border-box}
+body {
+font-family: 'Open Sans', sans-serif; /* font-family: 'Ubuntu', sans-serif;  */
+background-color: #e8a9a9;
+background-size: cover;
+}
+.headings{
+    background: #e8a9a9;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.main {
+    background: #e8a9a9;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #020202;
+    line-height: 1.58;
+    font-size: 30px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    width: auto;
+    margin-top: -30px;
+    padding: 30px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+ 
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto; 
+        background: #e8a9a9;
+        /* To center the element I used position, top, left */
+        position: absolute;
+        top: 40%;
+        left: 39%;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #020202;
+        line-height: 1.58;
+        font-size: 38px;
+
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 44%;
+        width: auto;
+        margin-top: -30px;
+        padding: 20px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+    .next {
+        position: absolute;
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+  
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+    }
+  }
+  
+  @media only screen and (max-width:100px) {
+    /* For mobile phones: */
+    .main {
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto; 
+        background: #e8a9a9;
+        /* To center the element I used position, top, left */
+        position: absolute;
+        top: 40%;
+        left: 39%;
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #020202;
+        line-height: 1.58;
+        font-size: 38px;
+
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 44%;
+        width: auto;
+        margin-top: -30px;
+        padding: 20px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+    .next {
+        position: absolute;
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+  
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+    }
+
+  }
