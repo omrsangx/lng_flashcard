@@ -11,17 +11,17 @@ Currently, this application does not check if the word is already in the databas
 Author: Omar
 
 # Directory structure:
-Parent directory
-   ├──────database
-   |       └───────lng_vocabulary.db
-   |
-   ├──────templates
-   |       └───────index.html
-   |
-   ├──────static
-   |       └───────style
-   |                └───────style.css
-   |
-   └──────lng_flashcard.py
+Parent director
+├──────database
+|       └───────lng_vocabulary.db
+|
+├──────templates
+|       └───────index.html
+|
+├──────static
+|       └───────style
+|                └───────style.css
+|
+└──────lng_flashcard.py
                     
 
