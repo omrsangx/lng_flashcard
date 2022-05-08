@@ -13,7 +13,7 @@ Author: Omar
 # Directory structure:
 Parent director
 ├──────database 
-|       |-------lng_vocabulary.db 
+|       └───────lng_vocabulary.db 
 | 
 ├──────templates 
 |       └───────index.html 
