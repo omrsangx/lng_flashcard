@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel= "stylesheet" href= "{{ url_for('static',filename='/style/style.css') }}">
+      
+      <script>
+         var listOfNames = {{ data|safe }};
+         count=0;
+
+         function Next(){
+            document.getElementById('value').innerHTML = listOfNames[count];
+            count++;
+            if (count > listOfNames.length-1)
+               count=listOfNames.length-1;
+            }
+
+         function Prev(){
+            document.getElementById('value').innerHTML = listOfNames[count];
+            count--;
+            if (count <= 0)
+               count = 0; 
+      }
+      </script>
+
+   </head>
+   
+   <body>
+      <div class="headings"> <h2> Language Flash Card </h2> </div> 
+      <div class="main"> 
+         <div id="value"></div>
+         </div>
+         <a class="prev" onclick="Prev()">❮</a>
+         <a class="next" onclick="Next()">❯</a>
+      </div>
+   </body>
+</html> 
+
+
