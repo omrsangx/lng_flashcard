@@ -12,7 +12,7 @@ class db_class:
 
     # Initializing the datbase's name and the table's name
     def __init__(self):
-        self.database_name = 'lng_vocabulary.db'
+        self.database_name = './database/lng_vocabulary.db'
         self.table_name = 'vocabulary'
     
     # Creating a method for the database's connector
