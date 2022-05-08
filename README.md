@@ -10,7 +10,7 @@ Currently, this application does not check if the word is already in the databas
 
 Author: Omar
 
-# Directory structure:
+### Directory structure:
 Parent director
 ├──────database 
 |       └───────lng_vocabulary.db 
