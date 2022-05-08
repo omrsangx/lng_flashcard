@@ -12,16 +12,16 @@ Author: Omar
 
 # Directory structure:
 Parent director
-├──────database
-|       └───────lng_vocabulary.db
-|
-├──────templates
-|       └───────index.html
-|
-├──────static
-|       └───────style
-|                └───────style.css
-|
+├──────database 
+|       └───────lng_vocabulary.db 
+| 
+├──────templates 
+|       └───────index.html 
+| 
+├──────static 
+|       └───────style 
+|                └───────style.css 
+| 
 └──────lng_flashcard.py
                     
 
