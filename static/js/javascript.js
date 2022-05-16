@@ -36,7 +36,7 @@ function Prev(){
    if (count < 0 ) {
       count++
    }
-   else{
+   else {
       document.getElementById('value').innerHTML = sourceWord[count];
    }
    // console.log("Prev function - count value after the if and else statement:",count);
